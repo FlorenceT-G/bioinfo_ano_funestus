@@ -1,0 +1,523 @@
+BLASTP 2.8.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: anopheles-funestus-fumozpeptidesafunf31fa
+           14,621 sequences; 8,537,875 total letters
+
+
+
+Query= AAEL002591-PA OBP13: odorant binding protein
+OBP13|protein_coding|3:257121370:257121827:1|gene:AAEL002591
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AFUN021080-PA odorant-binding protein|protein_coding|CM012072:7...  187     7e-63
+  AFUN021084-PA |protein_coding|CM012072:72795876:72796355:1|gene...  102     2e-29
+  AFUN001356-PA odorant-binding protein|protein_coding|CM012072:7...  83.6    8e-22
+  AFUN018949-PA odorant-binding protein|protein_coding|CM012072:7...  77.4    2e-19
+  AFUN004349-PA odorant-binding protein|protein_coding|CM012071:8...  72.0    3e-17
+  AFUN021083-PA odorant-binding protein|protein_coding|CM012072:7...  69.7    2e-16
+  AFUN001355-PA Odorant binding protein 24|protein_coding|CM01207...  69.3    4e-16
+  AFUN007791-PA odorant-binding protein antennal|protein_coding|C...  63.5    7e-14
+  AFUN009219-PA odorant-binding protein|protein_coding|CM012071:1...  62.8    1e-13
+  AFUN008615-PA Obp1: Odorant-binding protein 1|protein_coding|CM...  58.5    6e-12
+  AFUN005856-PA Obp2: Odorant-binding protein 2|protein_coding|CM...  52.8    1e-09
+  AFUN016175-PA Odorant binding protein 9|protein_coding|CM012070...  45.4    5e-07
+  AFUN001187-PA Odorant binding protein 7|protein_coding|CM012071...  44.7    8e-07
+  AFUN021082-PA odorant-binding protein|protein_coding|CM012072:7...  34.7    0.003
+  AFUN018655-PA odorant-binding protein|protein_coding|CM012072:7...  33.9    0.007
+  AFUN009116-PA odorant-binding protein|protein_coding|CM012071:1...  33.1    0.019
+  AFUN018712-PA |protein_coding|CM012072:43703374:43704187:-1|gen...  30.0    0.19 
+  AFUN010835-PA odorant-binding protein|protein_coding|CM012072:4...  30.0    0.19 
+  AFUN007246-PA odorant-binding protein|protein_coding|CM012072:8...  29.6    0.31 
+  AFUN000566-PA odorant-binding protein|protein_coding|CM012071:7...  28.9    0.70 
+  AFUN021616-PA |protein_coding|CM012071:52784909:52785584:1|gene...  27.7    0.97 
+  AFUN008835-PA odorant-binding protein|protein_coding|CM012072:5...  27.3    1.4  
+  AFUN006832-PA odorant-binding protein|protein_coding|CM012070:6...  27.7    1.5  
+  AFUN007247-PA odorant-binding protein|protein_coding|CM012072:8...  26.6    3.4  
+  AFUN003868-PA transcription initiation factor TFIID TATA-box-bi...  26.9    3.4  
+  AFUN001929-PA |protein_coding|CM012072:29684004:29685119:1|gene...  26.6    3.6  
+  AFUN008194-PA endoribonuclease Dicer|protein_coding|CM012071:20...  26.6    4.6  
+
+
+> AFUN021080-PA odorant-binding protein|protein_coding|CM012072:72792321:72792797:-1|gene:AFUN021080
+Length=134
+
+ Score = 187 bits (476),  Expect = 7e-63, Method: Compositional matrix adjust.
+ Identities = 94/134 (70%), Positives = 112/134 (84%), Gaps = 2/134 (1%)
+
+Query  1    MKTIAAIV-SFALIAGCMA-VTEDQKEAARQLAGKCMQQTGTSEESVQRLRNGDTSGADD  58
+            MKTIA +V + A++A  MA +TE+Q+EAARQLAGKCMQQTG SEE V RLR+GDT  AD 
+Sbjct  1    MKTIACLVFASAIVASAMAAITEEQREAARQLAGKCMQQTGASEEEVNRLRSGDTENADR  60
+
+Query  59   NTKCFVQCFFQGAGVVDGEGNMQEAFVTEKLASEYGQAKAEEVVQRCRNNSGANACERSF  118
+            NT+CFVQCFFQGAG VD +GN+Q   +TEKLASEYGQ KA+E+V RCRNN+G +ACERSF
+Sbjct  61   NTRCFVQCFFQGAGFVDQDGNVQTEELTEKLASEYGQEKADELVARCRNNAGPDACERSF  120
+
+Query  119  SLLQCYIANRASLM  132
+             LLQCY+ NRASL+
+Sbjct  121  RLLQCYMENRASLI  134
+
+
+> AFUN021084-PA  |protein_coding|CM012072:72795876:72796355:1|gene:AFUN021084
+Length=131
+
+ Score = 102 bits (255),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 57/132 (43%), Positives = 84/132 (64%), Gaps = 1/132 (1%)
+
+Query  1    MKTIAAIVSFALIAGCMAVTEDQKEAARQLAGKCMQQTGTSEESVQRLRNGDTSGADDNT  60
+            MKT AAI   ALIA   A+T DQK+ A   A +C+Q TG   E+  +L+ GD +GADD T
+Sbjct  1    MKTFAAIAVLALIASTFALTIDQKKKAEAHAAECVQSTGVPPETAAKLKGGDFTGADDKT  60
+
+Query  61   KCFVQCFFQGAGVVDGEGNMQEAFVTEKLASEYGQAKAEEVVQRCRNNSGANACERSFSL  120
+            KCF +CF + AG +  +G+  E  + EKL+ ++ +AK E +V++C N+  AN CE +F  
+Sbjct  61   KCFAKCFLEKAGFMTDKGDFDEKTIIEKLSVDHDRAKVEGLVKKC-NHKEANPCETAFKA  119
+
+Query  121  LQCYIANRASLM  132
+             QC  A +A+++
+Sbjct  120  YQCIYAAKAAVV  131
+
+
+> AFUN001356-PA odorant-binding protein|protein_coding|CM012072:72848354:72848851:1|gene:AFUN001356
+Length=132
+
+ Score = 83.6 bits (205),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 41/118 (35%), Positives = 67/118 (57%), Gaps = 1/118 (1%)
+
+Query  7    IVSFALIAGCMAVTEDQKEAARQLAGKCMQQTGTSEESVQRLRNGDTSGADDNTKCFVQC  66
+            IVSF L+A   A T  Q++     A +CM +TG   +S+ +LR+GD S  D   KCF++C
+Sbjct  9    IVSFLLVASVNAFTLRQQKMVSIFALECMAETGIGADSLAKLRDGDLSANDRTAKCFMKC  68
+
+Query  67   FFQGAGVVDGEGNMQEAFVTEKLASEYGQAKAEEVVQRCRNNSGANACERSFSLLQCY  124
+            FF+    +D +G +Q   +   L  +Y +AK +E++++C      + CE +F   +CY
+Sbjct  69   FFEKENFIDAKGQLQLEAIATALEKDYERAKIDEMLEQCAVQK-EDPCETAFHAYECY  125
+
+
+> AFUN018949-PA odorant-binding protein|protein_coding|CM012072:72788780:72789255:-1|gene:AFUN018949
+Length=132
+
+ Score = 77.4 bits (189),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 40/119 (34%), Positives = 69/119 (58%), Gaps = 2/119 (2%)
+
+Query  15   GCMAVTEDQKEAARQLAGKCM-QQTGTSEESVQRLRNGDTSGADDNTKCFVQCFFQGAGV  73
+            G   +T++Q + A   A  C+ Q  G ++E +  LR+GD S  D  TKCF++CF Q A  
+Sbjct  15   GAQPLTDEQMKKAEGFALGCLAQHKGLTQEHLVLLRDGDFSKVDGETKCFLRCFLQQANF  74
+
+Query  74   VDGEGNMQEAFVTEKLASEYGQAKAEEVVQRCRNNSGANACERSFSLLQCYIANRASLM  132
+            +D  G +Q  +  E+L+    ++K E +V++C +    ++CE +F  ++CY   +ASL+
+Sbjct  75   MDASGKLQNDYAIERLSLNREKSKVEALVKKC-SAEVEDSCETAFRAVECYHREKASLL  132
+
+
+> AFUN004349-PA odorant-binding protein|protein_coding|CM012071:82014725:82015377:1|gene:AFUN004349
+Length=136
+
+ Score = 72.0 bits (175),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 38/112 (34%), Positives = 57/112 (51%), Gaps = 2/112 (2%)
+
+Query  20   TEDQKEAARQLAGKCMQQTG--TSEESVQRLRNGDTSGADDNTKCFVQCFFQGAGVVDGE  77
+            TE+Q E A+ LA  C  + G    E+   ++R GD +   + +KC +QC F   G  D +
+Sbjct  22   TEEQHEIAKSLADSCHAEIGGDLPEDFATKMRLGDLTLDSETSKCTIQCIFAKVGFTDED  81
+
+Query  78   GNMQEAFVTEKLASEYGQAKAEEVVQRCRNNSGANACERSFSLLQCYIANRA  129
+            G    A +  KL+      KAE     C  N G + C+++FSL QCY  N++
+Sbjct  82   GVANRAVLITKLSKGNPIEKAEIFADVCEKNEGDSKCDKAFSLYQCYNKNKS  133
+
+
+> AFUN021083-PA odorant-binding protein|protein_coding|CM012072:72799899:72800433:1|gene:AFUN021083
+Length=132
+
+ Score = 69.7 bits (169),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 33/103 (32%), Positives = 57/103 (55%), Gaps = 1/103 (1%)
+
+Query  30   LAGKCMQQTGTSEESVQRLRNGDTSGADDNTKCFVQCFFQGAGVVDGEGNMQEAFVTEKL  89
+             A +C+ Q+G   +S+  L   D     +  KC V+CFF+  G +D +G +QE  +TE+L
+Sbjct  31   FALECLIQSGLKLDSLASLSTSDLDTNGNKIKCLVKCFFEKTGFMDKDGQLQEKTITEQL  90
+
+Query  90   ASEYGQAKAEEVVQRCRNNSGANACERSFSLLQCYIANRASLM  132
+            +      + E +++ C N   A+ACE ++ + +CY  N+A L 
+Sbjct  91   SKFMPLERIESLIKNC-NFQEADACETAYKVTECYFQNKAGLF  132
+
+
+> AFUN001355-PA Odorant binding protein 24|protein_coding|CM012072:72845144:72845775:-1|gene:AFUN001355
+Length=156
+
+ Score = 69.3 bits (168),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 38/137 (28%), Positives = 72/137 (53%), Gaps = 10/137 (7%)
+
+Query  1    MKTIAAIVSFALIAGCMAVTE---------DQKEAARQLAGKCMQQTGTSEESVQRLRNG  51
+            M+   +IV+FAL+A    +T          +Q     Q A +C+++TG   ++  R+ +G
+Sbjct  1    MRCNESIVTFALLAVLACITTVVQGARMEAEQIRRIHQTARECVKETGILPKNAFRVLSG  60
+
+Query  52   DTSGADDNTKCFVQCFFQGAGVVDGEGNMQEAFVTEKLASEYGQAKAEEVVQRCRNNSGA  111
+            D +      KCFV+CF   AG +D +G +Q+  + EKLA      K  +++++C    G 
+Sbjct  61   DFTVDTMKAKCFVKCFLDKAGFIDEDGVIQQDVIREKLAVGVETGKVNDLIKKC-TVEGT  119
+
+Query  112  NACERSFSLLQCYIANR  128
+            + C+ ++ + +C+ +N 
+Sbjct  120  DECDTAYQMYKCFFSNH  136
+
+
+> AFUN007791-PA odorant-binding protein antennal|protein_coding|CM012071:20359778:20360379:-1|gene:AFUN007791
+Length=151
+
+ Score = 63.5 bits (153),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 31/100 (31%), Positives = 51/100 (51%), Gaps = 2/100 (2%)
+
+Query  25   EAARQLAGKCMQQTGTSEESVQRLRNGDTSGADDNTKCFVQCFFQGAGVVDGEGNMQEAF  84
+            E  + +   C+ +TG SE++++R  + D    DD  KC++ C F  AGVV+ +G      
+Sbjct  43   EKMKPMHDACVAETGVSEDAIKRFSDQDIH-EDDKLKCYMNCLFHQAGVVNDKGEFHYVK  101
+
+Query  85   VTEKLASEYGQAKAEEVVQRCRNNSGANACERSFSLLQCY  124
+            + + L  E          +RC    G NACE++F L +C+
+Sbjct  102  IQDFL-PESMHLITLNWFKRCLYPEGENACEKAFWLNKCW  140
+
+
+> AFUN009219-PA odorant-binding protein|protein_coding|CM012071:1480922:1481537:-1|gene:AFUN009219
+Length=136
+
+ Score = 62.8 bits (151),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 38/137 (28%), Positives = 75/137 (55%), Gaps = 15/137 (11%)
+
+Query  6    AIVSFALI--AGCMAVTEDQKEAARQLAG---KCMQQTGTSEESVQRLRNGDT-SGADDN  59
+             +++FA++  AG + V + +     ++ G    C++ +G +E S ++L  G++    D  
+Sbjct  5    VLIAFAILTFAGQLTVAQKELTELPEVKGYKLHCIESSGITESSAKKLSAGESIKDPDQA  64
+
+Query  60   TKCFVQCFFQGAGVVDGEG----NMQEAFVTEKLASEYGQAKAEEVVQRCRNNSGANACE  115
+            TKCFVQCFFQ   ++D  G    +  E F+T+ + ++    KA++ V +C +    N C+
+Sbjct  65   TKCFVQCFFQKLRLMDETGVVLKDKLEVFLTKLMDAD----KAKDYVSQC-DLRRTNPCD  119
+
+Query  116  RSFSLLQCYIANRASLM  132
+             ++++  CY+  +A L 
+Sbjct  120  TAYAVYDCYLGKKAKLF  136
+
+
+> AFUN008615-PA Obp1: Odorant-binding protein 1|protein_coding|CM012071:24119275:24120482:1|gene:AFUN008615
+Length=144
+
+ Score = 58.5 bits (140),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 28/100 (28%), Positives = 53/100 (53%), Gaps = 2/100 (2%)
+
+Query  25   EAARQLAGKCMQQTGTSEESVQRLRNGDTSGADDNTKCFVQCFFQGAGVVDGEGNMQEAF  84
+            EA + L   C+ +TG +EE++++  + +    D+  KC++ C F  A VVD  G++    
+Sbjct  36   EAMKPLHDICVGKTGVTEEAIKKFSDEEIH-EDEKLKCYMNCLFHEAKVVDDNGDVHLEK  94
+
+Query  85   VTEKLASEYGQAKAEEVVQRCRNNSGANACERSFSLLQCY  124
+            + + L +      A  + +RC    G N C+++F L +C+
+Sbjct  95   LHDALPNSMHDI-ALHMGKRCLYPEGENLCDKAFWLHKCW  133
+
+
+> AFUN005856-PA Obp2: Odorant-binding protein 2|protein_coding|CM012071:23886528:23887051:1|gene:AFUN005856
+Length=145
+
+ Score = 52.8 bits (125),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 24/92 (26%), Positives = 44/92 (48%), Gaps = 1/92 (1%)
+
+Query  33   KCMQQTGTSEESVQRLRNGDTSGADDNTKCFVQCFFQGAGVVDGEGNMQEAFVTEKLASE  92
+            +C + TG +  +++R  + D    D   KC++ C F+   V D  G +    + E +  E
+Sbjct  44   QCRKDTGVTTAAIKRFSDEDIFEDDRALKCYMDCMFRLTNVTDDRGELHMLKLLEHVPPE  103
+
+Query  93   YGQAKAEEVVQRCRNNSGANACERSFSLLQCY  124
+            + +  A  +  RC    G + CER+F   +C+
+Sbjct  104  FEEI-ALRMGVRCTRPKGKDLCERAFWYHKCW  134
+
+
+> AFUN016175-PA Odorant binding protein 9|protein_coding|CM012070:7539053:7539568:-1|gene:AFUN016175
+Length=139
+
+ Score = 45.4 bits (106),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 29/133 (22%), Positives = 62/133 (47%), Gaps = 3/133 (2%)
+
+Query  1    MKTIAAIVSFALIAGCMAVTEDQKEAARQLAGKCMQQTGTSEESVQRLRNGDTSGADDNT  60
+            +K + A+++ A +     V + + +  +  A +C+Q    S+E V++ ++ +    DD T
+Sbjct  2    LKFVVAVLALAAMVSAEFVVQTRDDLLKYRA-ECVQSLSVSDELVEQYKSWNFP-EDDTT  59
+
+Query  61   KCFVQCFFQGAGVVDG-EGNMQEAFVTEKLASEYGQAKAEEVVQRCRNNSGANACERSFS  119
+            +C+++C F    + D   G + +  V +            E+V+    N+  N C  ++ 
+Sbjct  60   QCYIKCIFNKMQLFDDTNGPIVDNLVVQLAHGRDVDEVRAEIVKCAGTNTDGNVCHWAYR  119
+
+Query  120  LLQCYIANRASLM  132
+              QC+  N  SL+
+Sbjct  120  GFQCFQKNNLSLI  132
+
+
+> AFUN001187-PA Odorant binding protein 7|protein_coding|CM012071:12947053:12949106:-1|gene:AFUN001187
+Length=145
+
+ Score = 44.7 bits (104),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 22/116 (19%), Positives = 56/116 (48%), Gaps = 3/116 (3%)
+
+Query  10   FALIAGCMAVTEDQKEAARQLAGKCMQQTGTSEESVQRLRNGDTSGADDNTKCFVQCFFQ  69
+            + +++    + +  K+ A+ L   C+ ++G SEE +++  +G T   D   KC++ C F 
+Sbjct  15   YIVLSTAFEIPDRYKKPAKMLHEICLAESGASEELLRQCLDG-TVHNDPAVKCYIHCLFD  73
+
+Query  70   GAGVVDGE-GNMQEAFVTEKLASEYGQAKAEEVVQRCRNNSGANACERSFSLLQCY  124
+               V++ + G +    +   +  +  +A    + + C +    + C+ ++  ++CY
+Sbjct  74   KIDVIEEDTGRILLDRLLYIIPDDVKEA-VNHLTRECSHIVTPDKCDTAYETVKCY  128
+
+
+> AFUN021082-PA odorant-binding protein|protein_coding|CM012072:72791419:72791990:-1|gene:AFUN021082
+Length=136
+
+ Score = 34.7 bits (78),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 21/95 (22%), Positives = 37/95 (39%), Gaps = 0/95 (0%)
+
+Query  33   KCMQQTGTSEESVQRLRNGDTSGADDNTKCFVQCFFQGAGVVDGEGNMQEAFVTEKLASE  92
+            +C  +        + LR GD S  +   +CF +CF + AG ++         +   +   
+Sbjct  33   RCRNEYDIEPSVFEALRAGDFSVRNSFVECFGECFVKRAGFMNDNFTFNRDTIMRFMNRF  92
+
+Query  93   YGQAKAEEVVQRCRNNSGANACERSFSLLQCYIAN  127
+              +  A  V + C  N     C  +F++ QC   N
+Sbjct  93   VSKEIAAGVYKTCTENVTPTYCVTAFNVYQCIYEN  127
+
+
+> AFUN018655-PA odorant-binding protein|protein_coding|CM012072:72789993:72790665:-1|gene:AFUN018655
+Length=140
+
+ Score = 33.9 bits (76),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 29/123 (24%), Positives = 49/123 (40%), Gaps = 13/123 (11%)
+
+Query  7    IVSFALIA-----GCMAVTEDQKEAARQLAGKCMQQTGTSEESVQRLRNGDTSGADDNTK  61
+            IV F ++      GC A  +D K A       C +      + V  L+ GD +  D   +
+Sbjct  11   IVPFGVVLLLAGRGCQA--QDFKGAIDH----CTKDFDMDMDIVVSLKYGDFTERDALIE  64
+
+Query  62   CFVQCFFQGAGVVDGEGNMQEAFVTEKLASEYGQAK-AEEVVQRCRNNSGANACERSFSL  120
+            CF +C  + +G +  +    +  +    A  Y + + A+ V   C +  G   C   F +
+Sbjct  65   CFTECLMKKSGFMYDDYTYNKTLII-GFAGRYLEPEGAQAVYDNCIDRFGQTVCVTGFEM  123
+
+Query  121  LQC  123
+             QC
+Sbjct  124  YQC  126
+
+
+> AFUN009116-PA odorant-binding protein|protein_coding|CM012071:14463205:14463841:-1|gene:AFUN009116
+Length=166
+
+ Score = 33.1 bits (74),  Expect = 0.019, Method: Compositional matrix adjust.
+ Identities = 17/68 (25%), Positives = 33/68 (49%), Gaps = 6/68 (9%)
+
+Query  62   CFVQCFFQGAGVVDGEGNMQEAFVTEKLASEYGQAKAEEVVQRCRNNSGANACERSFSLL  121
+            CF++C+ Q  G++      ++  V ++ A     A ++E V  C +      CE+++   
+Sbjct  95   CFIRCYLQTLGIL-----TEDDKVNKETALALNWATSDETVDECLDEMTGAGCEKAYFFT  149
+
+Query  122  QCYIANRA  129
+            +C I  RA
+Sbjct  150  RC-IMTRA  156
+
+
+> AFUN018712-PA  |protein_coding|CM012072:43703374:43704187:-1|gene:AFUN018712
+Length=158
+
+ Score = 30.0 bits (66),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 28/124 (23%), Positives = 50/124 (40%), Gaps = 15/124 (12%)
+
+Query  18   AVTEDQKEAARQLAGKCMQQTGTSEESVQRLRNGDTSGADDNTKCFVQCFFQ-------G  70
+            A  E   ++   +   C+ +T  SEE    LR    +   +  KC+V C  +       G
+Sbjct  39   ATVEQMMKSGEMIRSVCLGKTKVSEELANGLRESKFADVKE-LKCYVNCVMEMMQTMKKG  97
+
+Query  71   AGVVDGEGNMQEAFVTEKLASEYGQAKAEEVVQRCRN--NSGANACERSFSLLQCYIANR  128
+                D      +  + ++LA   G  +A   +  CRN  +   N C+ ++++LQC   N 
+Sbjct  98   KLNYDASVKQIDTIMPDELA---GPMRA--ALDICRNVADGIKNNCDAAYAMLQCLSKNN  152
+
+Query  129  ASLM  132
+               +
+Sbjct  153  PKFI  156
+
+
+> AFUN010835-PA odorant-binding protein|protein_coding|CM012072:40998345:40999158:-1|gene:AFUN010835
+Length=158
+
+ Score = 30.0 bits (66),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 28/124 (23%), Positives = 50/124 (40%), Gaps = 15/124 (12%)
+
+Query  18   AVTEDQKEAARQLAGKCMQQTGTSEESVQRLRNGDTSGADDNTKCFVQCFFQ-------G  70
+            A  E   ++   +   C+ +T  SEE    LR    +   +  KC+V C  +       G
+Sbjct  39   ATVEQMMKSGEMIRSVCLGKTKVSEELANGLRESKFADVKE-LKCYVNCVMEMMQTMKKG  97
+
+Query  71   AGVVDGEGNMQEAFVTEKLASEYGQAKAEEVVQRCRN--NSGANACERSFSLLQCYIANR  128
+                D      +  + ++LA   G  +A   +  CRN  +   N C+ ++++LQC   N 
+Sbjct  98   KLNYDASVKQIDTIMPDELA---GPMRA--ALDICRNVADGIKNNCDAAYAMLQCLSKNN  152
+
+Query  129  ASLM  132
+               +
+Sbjct  153  PKFI  156
+
+
+> AFUN007246-PA odorant-binding protein|protein_coding|CM012072:84525710:84526779:1|gene:AFUN007246
+Length=326
+
+ Score = 29.6 bits (65),  Expect = 0.31, Method: Compositional matrix adjust.
+ Identities = 17/82 (21%), Positives = 31/82 (38%), Gaps = 5/82 (6%)
+
+Query  56   ADDNTKCFVQCFFQGAGVVDGEGNMQEAFVTEKLASEYGQAKAEEVVQRC-----RNNSG  110
+             DD TKC + C        D   ++Q   +        G  + E+    C      + + 
+Sbjct  59   PDDETKCLIYCVGTDLHWWDSACDLQVPAIMNFFQPVLGDRQYEKRTNECLERNVHSRNS  118
+
+Query  111  ANACERSFSLLQCYIANRASLM  132
+            +N C +++   QCY     +L+
+Sbjct  119  SNNCCKAYDTFQCYFREFGNLV  140
+
+
+> AFUN000566-PA odorant-binding protein|protein_coding|CM012071:76450343:76451687:-1|gene:AFUN000566
+Length=299
+
+ Score = 28.9 bits (63),  Expect = 0.70, Method: Compositional matrix adjust.
+ Identities = 27/134 (20%), Positives = 50/134 (37%), Gaps = 7/134 (5%)
+
+Query  4    IAAIVSFALIAGCMAVTED--QKEAARQLAGKCMQQTGTSEESVQRLRNGDTSGADDNTK  61
+            + A+VS  L  G  A  E    +++  Q   +C+      +  + +    + S  D  TK
+Sbjct  8    VGALVSLWL-TGAFAFIEHGTIEKSLVQAQHECVTYLNLPKHRLYQYLVYNYSN-DAKTK  65
+
+Query  62   CFVQCFFQGAGVVDGEGNMQEAFVTEKLASEYGQAKAEEVVQRCRNNS---GANACERSF  118
+              ++C        + +G + +  + +    + G     E    C  N    G   C R+F
+Sbjct  66   LMIRCVGLLLHWWNSDGALNKHVIEQYFLPDAGDTTYPERTAACVENKAPEGDELCSRAF  125
+
+Query  119  SLLQCYIANRASLM  132
+               QCY+     L+
+Sbjct  126  ETFQCYLQQYGELI  139
+
+
+> AFUN021616-PA  |protein_coding|CM012071:52784909:52785584:1|gene:AFUN021616
+Length=145
+
+ Score = 27.7 bits (60),  Expect = 0.97, Method: Compositional matrix adjust.
+ Identities = 23/103 (22%), Positives = 42/103 (41%), Gaps = 15/103 (15%)
+
+Query  34   CMQQTGTSEESVQRLRNGDTSGADDNTKCFVQCFFQ-------GAGVVDGEGNMQEAFVT  86
+            CM +    E  +  L  G+ +   +  KC+  C  +       G  + D      +  + 
+Sbjct  42   CMGKHKADESLIDALGRGEFADTKE-LKCYANCVLEMMQAMKKGKVIADSAIKQIDLLIP  100
+
+Query  87   EKLASEYGQAKAEEVVQRCRN--NSGANACERSFSLLQCYIAN  127
+             ++A    +A        CR+  N   N+CE +++LL+C  AN
+Sbjct  101  TEIAEPTIKA-----FDGCRDSANGIKNSCEAAYALLKCLHAN  138
+
+
+> AFUN008835-PA odorant-binding protein|protein_coding|CM012072:56856476:56857031:-1|gene:AFUN008835
+Length=143
+
+ Score = 27.3 bits (59),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 29/124 (23%), Positives = 46/124 (37%), Gaps = 10/124 (8%)
+
+Query  9    SFALIAGCMAVTEDQ----KEAARQLAGKCMQQT-GTSEESVQRLRNGDTSGADDNTKCF  63
+            S  L+A  + V   Q     +    L   C +   G +E+   R R  +    D  T CF
+Sbjct  3    SIVLLAAVLTVLSVQLVRATDDIESLIDSCSKVVEGMTEDLKARYR-ANAFPDDPVTHCF  61
+
+Query  64   VQCFFQGAGVVDGEGNMQEAFVTEKLASEYGQAKAEEVVQRCRNNSGA----NACERSFS  119
+            V+C      + D E  +      E L     + +     + C +N       N C+R++S
+Sbjct  62   VRCLGLTLNLYDDEEGVDLHANWEHLGKVDDEIEFIAKHRDCLDNRNLALIDNPCDRAYS  121
+
+Query  120  LLQC  123
+              QC
+Sbjct  122  AFQC  125
+
+
+> AFUN006832-PA odorant-binding protein|protein_coding|CM012070:6810306:6811148:-1|gene:AFUN006832
+Length=280
+
+ Score = 27.7 bits (60),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 22/122 (18%), Positives = 43/122 (35%), Gaps = 16/122 (13%)
+
+Query  18   AVTEDQKEAARQLAGKCMQQTGTSEESVQRLRNGDTSGADDNTKCFVQCFFQGAGVVDGE  77
+            ++ + Q+E  R L   C +           + N      D  T+C V+C     G  D  
+Sbjct  21   SIAQAQQECVRYLGIPCARLG---------VYNDYIYPNDTETQCMVRCMGVNLGWWDDT  71
+
+Query  78   GNMQEAFVTEKLASEYGQAKAEEVVQRCRNN-------SGANACERSFSLLQCYIANRAS  130
+              +QE  +      +    + +     C  +       S  + CER++   +CY     +
+Sbjct  72   QGVQEPAIRNYFHPDPDDKQYKRRAYHCLQSQHLDNPASHVDGCERAYESFRCYYEQYGN  131
+
+Query  131  LM  132
+            ++
+Sbjct  132  IV  133
+
+
+> AFUN007247-PA odorant-binding protein|protein_coding|CM012072:84522711:84523877:1|gene:AFUN007247
+Length=388
+
+ Score = 26.6 bits (57),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 31/144 (22%), Positives = 53/144 (37%), Gaps = 14/144 (10%)
+
+Query  1    MKTIAAIVSFALIAGCMAVTE-DQK-----EAARQLAGKCMQQTGTSEES-VQRLRNGDT  53
+            MK +  +V   L+A  +   E D K     ++  Q    C +     +E  VQ + N   
+Sbjct  1    MKQLMCVVVLTLVAPNLIAGECDTKGVIVEKSFLQSVHDCTEYLQIPKERLVQYMAN--E  58
+
+Query  54   SGADDNTKCFVQCFFQGAGVVDGEGNMQEAFVTEKLASEYGQAKAEEVVQRCRNN-----  108
+               DD TKC + C     G  +    +Q   +        G  + E+  + C        
+Sbjct  59   FPPDDETKCLLFCVGVDLGWWNNTCGLQAPSMISYFQPVQGDKQYEKRTKECLERRVGAI  118
+
+Query  109  SGANACERSFSLLQCYIANRASLM  132
+               N+C +++   QCY     +L+
+Sbjct  119  ESPNSCCQAYETFQCYFQEFGNLV  142
+
+
+> AFUN003868-PA transcription initiation factor TFIID TATA-box-binding 
+protein|protein_coding|CM012070:9859570:9861481:1|gene:AFUN003868
+Length=546
+
+ Score = 26.9 bits (58),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 25/48 (52%), Gaps = 4/48 (8%)
+
+Query  3    TIAAIVSFALIAGCMAVTEDQKEAARQLAGKCMQQTGTSEESVQRLRN  50
+            T A+I S   I    A +EDQ + A +   +C+Q+ G +     RLRN
+Sbjct  328  TTASIWSSGKITCTGATSEDQAKVAARRYSRCLQKLGFN----VRLRN  371
+
+
+> AFUN001929-PA  |protein_coding|CM012072:29684004:29685119:1|gene:AFUN001929
+Length=249
+
+ Score = 26.6 bits (57),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  90   ASEYGQAKAEEVVQRCRNNSGANA  113
+            + E G+   +E+ + CRNNSG++A
+Sbjct  33   SEESGETDVKELQETCRNNSGSDA  56
+
+
+> AFUN008194-PA endoribonuclease Dicer|protein_coding|CM012071:20936285:20943801:1|gene:AFUN008194
+Length=2315
+
+ Score = 26.6 bits (57),  Expect = 4.6, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 24/57 (42%), Gaps = 4/57 (7%)
+
+Query  59   NTKCFVQCFFQGAGVVDGEGNMQEAFVTEKLASEYGQAKAEEVVQRCRNNSGANACE  115
+            N + + QC     G     G     FVT +        +AE + +  RN+S AN CE
+Sbjct  634  NYRSYAQC----KGRAKAPGAYHILFVTPEQLVASSAEQAEPMDEPLRNDSQANECE  686
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.127    0.361    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 334901574
+
+
+  Database: anopheles-funestus-fumozpeptidesafunf31fa
+    Posted date:  Nov 12, 2019  2:46 PM
+  Number of letters in database: 8,537,875
+  Number of sequences in database:  14,621
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
